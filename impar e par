@@ -1,0 +1,6 @@
+let numero = window.prompt("numero: ")
+if (numero%2 === 0){
+    window.alert("EH PA")
+}else{
+    window.alert("impA")
+}
