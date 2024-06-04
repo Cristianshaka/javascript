@@ -1,0 +1,18 @@
+let cod_pdt = window.prompt("Digite o codigo")
+let qtd_pdt = window.prompt("Digite a quantidade")
+
+if(cod_pdt == 1){
+    preco = 4.00*qt
+}else if(cod_pdt == 2) (
+    preco = 4.50
+)else if(cod_pdt == 3) (
+    preco = 5.00
+)else if(cod_pdt == 4) (
+    preco = 2.00
+)else if(cod_pdt == 5) (
+    preco = 1.50
+)else(
+    window.alert("codigo invalido")
+)
+let total = preco * qtd_pdt
+windows.alert(`´Total: R$ ${total.toFixed(2)}`)
