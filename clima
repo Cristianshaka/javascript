@@ -1,0 +1,17 @@
+let t1 = window.prompt("informe a temperatura: ")
+let t2 = window.prompt("informe a temperatura: ")
+let t3 = window.prompt("informe a temperatura: ")
+let bom = ':)'
+let ruim = ':('
+
+if(t1 < t2 && t2 < t3 || t2 == t3){
+    window.prompt(bom)
+}else if (t1 < t2 && t2 > t3 || t2 == t3){
+    window.prompt(ruim)
+}else if(t1 < t2 && t2 < t3 && (t2-t1)>(t2-t3)){
+    window.prompt(ruim)
+}else if(t1 < t2 && t2 < t3 && (t2-t1)<=(t2-t3)){
+    window.prompt(bom)
+}else if(t1 < t2 && t2 < t3 && (t2-t1)>(t2-t3)){
+    window.prompt(triste)
+}
