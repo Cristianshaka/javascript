@@ -1,0 +1,7 @@
+let velocidade = window.prompt("informe a velocidade: ")
+let horas = window.prompt("Informe as horas: ")
+let total
+
+total = (velocidade*horas)/12 
+
+prompt(total.toFixed(3))
